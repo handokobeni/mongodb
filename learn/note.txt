@@ -1,0 +1,2 @@
+masuk ke mongo client cli 
+- mongo atau mongo --host localhost --port 27017
