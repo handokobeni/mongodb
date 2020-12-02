@@ -34,3 +34,21 @@ contoh
 - db.namacollection.drop()      - menghapus collection
 - db.namacollection.totalSize() - mengambil total ukuran collection
 - db.namacollection.stats()     - menganmbil info statistik collection
+
+BSON gak cuma support text bisa video atau gambar dll, klo json cuma text
+dokumentasi bson : http://bsonspec.org/
+tipe data bson
+Double         -> alias "double"
+String         -> alias "string"
+Object         -> alias "object"
+Array          -> alias "array"
+Binary data    -> alias "binData"
+ObjectId       -> alias "objectId"
+32 bit integer -> alias "int"
+Timestamp      -> alias "timestamp"
+64 bit integer -> "long"
+Decimal 128    -> alias "decimal"
+Min key        -> alias "minKey"
+Max key        -> alias "maxKey"
+
+objectId (default id dokument) memiliki ukuran 12 byte, terdiri dari 4 byte timestamp, 5 byte random value, dan 3 byte incrementing counter
