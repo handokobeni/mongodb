@@ -60,3 +60,8 @@ $gt     -> lebih besar
 $gte    -> lebih besar atau sama dengan
 $lt     -> lebih kecil
 $lte    -> lebih kecil atau sama dengan
+
+
+QUERY EVALUATION : https://docs.mongodb.com/manual/reference/operator/query-evaluation/
+
+JSON SCHEMA : https://docs.mongodb.com/manual/reference/operator/query/jsonSchema/
