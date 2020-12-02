@@ -1,2 +1,15 @@
 masuk ke mongo client cli 
 - mongo atau mongo --host localhost --port 27017
+
+membuat database:
+- use belajar
+klo blum ada datanya (collection) databasenya belum kebuat
+
+melihat list database:
+- show databases
+
+beberapa method yg ada di object db:
+https://docs.mongodb.com/manual/reference/method/js-database/
+contoh
+db.getName()      -> mendapatkan nama database
+db.dropDatabase() -> mengahpus database
