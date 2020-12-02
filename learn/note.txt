@@ -13,3 +13,24 @@ https://docs.mongodb.com/manual/reference/method/js-database/
 contoh
 db.getName()      -> mendapatkan nama database
 db.dropDatabase() -> mengahpus database
+
+
+COLLECTION
+- tempat menyimpan document
+- max per document yg bisa disimpan 16MB
+- max level nested document yg bisa disimpan 100 level
+
+untuk manipulasi collection: https://docs.mongodb.com/manual/reference/method/js-database/
+contoh
+- db.getCollectionNames()   -> mengambil semua collection
+- db.createCollection(name) -> membuat collection baru
+- db.getCollection(name)    -> mendapatkan object collection
+- db.getCollectionInfos()   -> mendapatkan informasi semua collection
+
+collection method : https://docs.mongodb.com/manual/reference/method/js-collection/
+contoh
+- db.namacollection.find()      - ambil semua document
+- db.namacollection.count()     - ambil jumlah document
+- db.namacollection.drop()      - menghapus collection
+- db.namacollection.totalSize() - mengambil total ukuran collection
+- db.namacollection.stats()     - menganmbil info statistik collection
