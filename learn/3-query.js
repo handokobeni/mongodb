@@ -19,6 +19,8 @@ db.products.find({
     price: 2000
 });
 
+
+// search in embedded document
 // select * from orders where items.product_id = 1
 db.orders.find({
     "items.product_id": 1

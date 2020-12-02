@@ -52,3 +52,11 @@ Min key        -> alias "minKey"
 Max key        -> alias "maxKey"
 
 objectId (default id dokument) memiliki ukuran 12 byte, terdiri dari 4 byte timestamp, 5 byte random value, dan 3 byte incrementing counter
+
+
+QUERY COMPARISON : https://docs.mongodb.com/manual/reference/operator/query-comparison/
+$eq     -> equals
+$gt     -> lebih besar
+$gte    -> lebih besar atau sama dengan
+$lt     -> lebih kecil
+$lte    -> lebih kecil atau sama dengan
